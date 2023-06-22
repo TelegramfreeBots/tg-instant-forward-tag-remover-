@@ -2,9 +2,6 @@ import pyrogram
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message, User
-from dotenv import load_dotenv
-
-load_dotenv()  # Load environment variables from .env file
 
 
 bot_token = os.getenv("BOT_TOKEN")
